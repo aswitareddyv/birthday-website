@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>Happy Birthday ❤️</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect"
+          href="https://fonts.googleapis.com">
+
+    <link rel="preconnect"
+          href="https://fonts.gstatic.com"
+          crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500;600;700&family=Poppins:wght@300;400;500;600;700&display=swap"
+          rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+
+<body>
+
+
+<!-- =====================================================
+                    BACKGROUND
+===================================================== -->
+
+<div class="stars"></div>
+
+<div class="floating-heart heart1">❤️</div>
+<div class="floating-heart heart2">💗</div>
+<div class="floating-heart heart3">💕</div>
+<div class="floating-heart heart4">💖</div>
+
+
+<!-- =====================================================
+                    SLIDE 1
+===================================================== -->
+
+<section class="slide active" id="slide1">
+
+    <div class="glass-card opening-card">
+
+        <div class="small-title">
+            ✨ A SPECIAL SURPRISE ✨
+        </div>
+
+        <h1>
+            Hey...
+        </h1>
+
+        <h2>
+            I made something<br>
+            special for you ❤️
+        </h2>
+
+        <div class="gift">
+            🎁
+        </div>
+
+        <p>
+            This little website contains some memories,
+            wishes and a small surprise for you.
+        </p>
+
+        <button onclick="nextSlide()">
+            Open Your Surprise →
+        </button>
+
+    </div>
+
+</section>
+
+
+
+<!-- =====================================================
+                    SLIDE 2
+===================================================== -->
+
+<section class="slide" id="slide2">
+
+    <div class="glass-card birthday-card">
+
+        <div class="small-title">
+            🎉 TODAY IS YOUR SPECIAL DAY 🎉
+        </div>
+
+        <h1>
+            Happy Birthday
+        </h1>
+
+        <h2>
+            My Dear <span>Friend</span> ❤️
+        </h2>
+
+
+        <!-- Main Photo -->
+
+        <div class="main-photo">
+
+            <div class="photo-glow"></div>
+
+            <img src="photo1.jpg"
+                 alt="Our Photo">
+
+        </div>
+
+
+        <p class="birthday-text">
+
+            Wishing you a beautiful birthday filled
+            with happiness, laughter and unforgettable
+            moments. ✨
+
+        </p>
+
+
+        <p class="birthday-text">
+
+            May this new year of your life bring you
+            closer to everything you dream of. 💕
+
+        </p>
+
+
+        <button onclick="nextSlide(); startConfetti();">
+
+            Our Memories → 📸
+
+        </button>
+
+    </div>
+
+</section>
+
+
+
+<!-- =====================================================
+                    SLIDE 3
+===================================================== -->
+
+<section class="slide" id="slide3">
+
+    <div class="memory-section">
+
+        <div class="small-title">
+            📸 SOME OF OUR MEMORIES
+        </div>
+
+        <h1 class="memory-title">
+            Moments We Share ❤️
+        </h1>
+
+        <p class="memory-subtitle">
+            Every picture has a story...
+        </p>
+
+
+        <div class="photo-grid">
+
+
+            <!-- PHOTO 1 -->
+
+            <div class="memory-card card1">
+
+                <img src="photo1.jpg"
+                     alt="Memory 1">
+
+                <div class="photo-caption">
+                    ✨ A beautiful moment
+                </div>
+
+            </div>
+
+
+            <!-- PHOTO 2 -->
+
+            <div class="memory-card card2">
+
+                <img src="photo2.jpg"
+                     alt="Memory 2">
+
+                <div class="photo-caption">
+                    💕 One of my favourites
+                </div>
+
+            </div>
+
+
+            <!-- PHOTO 3 -->
+
+            <div class="memory-card card3">
+
+                <img src="photo3.jpg"
+                     alt="Memory 3">
+
+                <div class="photo-caption">
+                    🥰 A memory to remember
+                </div>
+
+            </div>
+
+
+        </div>
+
+
+        <button onclick="nextSlide(); startConfetti();">
+
+            More Memories → 💕
+
+        </button>
+
+    </div>
+
+</section>
+
+
+
+<!-- =====================================================
+                    SLIDE 4
+===================================================== -->
+
+<section class="slide" id="slide4">
+
+    <div class="memory-section">
+
+        <div class="small-title">
+            💕 MORE MOMENTS
+        </div>
+
+        <h1 class="memory-title">
+            And There Are More...
+        </h1>
+
+
+        <div class="two-photos">
+
+
+            <!-- PHOTO 4 -->
+
+            <div class="large-memory">
+
+                <img src="photo4.jpg"
+                     alt="Memory 4">
+
+                <div class="memory-overlay">
+
+                    <span>
+                        ❤️ Together
+                    </span>
+
+                </div>
+
+            </div>
+
+
+            <!-- PHOTO 5 -->
+
+            <div class="large-memory">
+
+                <img src="photo5.jpg"
+                     alt="Memory 5">
+
+                <div class="memory-overlay">
+
+                    <span>
+                        ✨ Always Special
+                    </span>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <p class="memory-text">
+
+            These are just photographs,
+            but for me they are little pieces
+            of memories that I will always treasure. ❤️
+
+        </p>
+
+
+        <button onclick="nextSlide(); startConfetti();">
+
+            One Last Thing → 💌
+
+        </button>
+
+    </div>
+
+</section>
+
+
+
+<!-- =====================================================
+                    SLIDE 5
+===================================================== -->
+
+<section class="slide" id="slide5">
+
+    <div class="glass-card final-card">
+
+        <div class="small-title">
+            💌 ONE LAST MESSAGE
+        </div>
+
+        <h1>
+            For You ❤️
+        </h1>
+
+
+        <div class="heart-big">
+            ❤️
+        </div>
+
+
+        <p class="final-message">
+
+            Some people come into our lives
+            and slowly become a beautiful part
+            of our memories.
+
+            <br><br>
+
+            I am really grateful for all the
+            laughs, conversations, silly moments
+            and memories we have shared.
+
+            <br><br>
+
+            I hope this birthday brings you
+            everything your heart wishes for.
+
+            <br><br>
+
+            Keep smiling.
+            Keep shining.
+            And always stay the wonderful person
+            you are. ✨
+
+        </p>
+
+
+        <h2 class="final-birthday">
+            Happy Birthday! 🎂🥳
+        </h2>
+
+
+        <!-- Mini Photo Collage -->
+
+        <div class="mini-gallery">
+
+            <img src="photo1.jpg" alt="Photo">
+
+            <img src="photo2.jpg" alt="Photo">
+
+            <img src="photo3.jpg" alt="Photo">
+
+            <img src="photo4.jpg" alt="Photo">
+
+            <img src="photo5.jpg" alt="Photo">
+
+        </div>
+
+
+        <p class="footer-text">
+
+            Made with ❤️ especially for you
+
+        </p>
+
+
+        <button onclick="celebrate()">
+
+            🎉 Celebrate Again
+
+        </button>
+
+    </div>
+
+</section>
+
+
+
+<!-- =====================================================
+                    NAVIGATION DOTS
+===================================================== -->
+
+<div class="navigation">
+
+    <span class="dot active-dot"
+          onclick="goToSlide(1)">
+    </span>
+
+    <span class="dot"
+          onclick="goToSlide(2)">
+    </span>
+
+    <span class="dot"
+          onclick="goToSlide(3)">
+    </span>
+
+    <span class="dot"
+          onclick="goToSlide(4)">
+    </span>
+
+    <span class="dot"
+          onclick="goToSlide(5)">
+    </span>
+
+</div>
+
+
+<script src="script.js"></script>
+
+</body>
+
+</html>
